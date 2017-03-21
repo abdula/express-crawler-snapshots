@@ -5,6 +5,7 @@ var request = require('request'),
     simultaneous = argv.simultaneous || argv.s || 1;
     url  = argv.url || argv.u || 'http://localhost:3000';
 
+
 if (argv.h || argv.help) {
     console.log('Usage: node stresstest.js --interval 2000 --simultaneous 3 --url http://localhost:3000');
     return;
